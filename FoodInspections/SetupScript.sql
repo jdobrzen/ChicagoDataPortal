@@ -182,7 +182,7 @@ AS
 (
 SELECT BulkColumn
 /*!!!!UPDATE with your local file path and name!!!!*/
-FROM OPENROWSET (BULK 'C:\Users\jonat\Source\Repos\ChicagoDataPortal\FoodInspections\FoodInspections.json', SINGLE_CLOB) AS jsonData
+FROM OPENROWSET (BULK '****REPLACE WITH YOUR LOCAL FILE PATH****', SINGLE_CLOB) AS jsonData
 )
 INSERT INTO dbo.FoodInspections
 SELECT MAX(CAST(pvt.[id] AS varchar(50))) AS [ID]
