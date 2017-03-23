@@ -4,6 +4,9 @@ Learning SQL Server 2016 and Azure Cloud Data Platforms with Chicago Data Portal
 Chicago Data Portal URL:
 https://data.cityofchicago.org/
 
+JD 03-23-2017:
+1. Added new Chicago Data Portal Project directory that organizes the exercise files by the post they are related to on www.littlesoftwareprojects.com
+
 JD 03-16-2017:
 1. Added setup script (SetupScript.sql) to create database, a table and parse the food inspection data from the City of Chicago Data Portal.
 
