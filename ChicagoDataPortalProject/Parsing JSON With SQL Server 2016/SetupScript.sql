@@ -1,4 +1,4 @@
-/*Step 1: Create Database*/
+/*Step 1: Create Database */
 USE [master]
 GO
 
